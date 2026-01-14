@@ -57,7 +57,7 @@
 == Work Experience
 
 #work(
-  title: "Undergraduate Teaching Assistant",
+  title: "Embedded Systems Teaching Assistant",
   location: "West Lafayette, IN",
   company: "Purdue University",
   dates: dates-helper(start-date: "August 2025", end-date: "Present"),
@@ -83,17 +83,6 @@
 - Assisted with root cause analysis on critical component failures by performing
   physical inspections and identifying the cause
 
-// #work(
-//   title: "Manufacturing Engineering Intern",
-//   location: "Waterbury, CT",
-//   company: "Ametek Haydon-Kerk Pittman Motion Solutions",
-//   dates: dates-helper(start-date: "May 2024", end-date: "May 2025"),
-// )
-// // - Collaborated directly with production teams on the assembly line to troubleshoot and resolve manufacturing issues for precision motion control products
-// - Troubleshooted and Resolved manufacturing issues for precision motion control products with
-// - Contributed to engineering projects by designing mechanical prototypes in SolidWorks and performing tests to validate their performance and function
-// - Improved operational efficiency by analyzing production workflows and implementing targeted updates within the Microsoft Dynamica NAV ERP system
-//
 == Research Experience
 
 #work(
@@ -149,7 +138,7 @@
   peripheral
 
 == Skills
-
+- *Hardware & Systems*: Digital logic design, RTL development, timing analysis
 - *Programming Languages*: C, Python, Java, MATLAB, RISC-V Assembly, C++, CUDA
-- *Technologies*: Linux, Git, ns-3, System Verilog, LTspice, Autodesk Eagle
+- *Technologies*: Linux, Git, ns-3, SystemVerilog, LTspice, Autodesk Eagle
 
