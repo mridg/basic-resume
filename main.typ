@@ -46,34 +46,57 @@
 #edu(
   institution: "Purdue University",
   location: "West Lafayette, IN",
-  dates: dates-helper(start-date: "August 2023", end-date: "December 2026"),
+  dates: dates-helper(start-date: "August 2023", end-date: "May 2027"),
   degree: "Computer Engineering",
 )
-- Cumulative GPA: 3.6\/4.0 | Dean's List, Semester Honors
+- Cumulative GPA: 3.4\/4.0 | Dean's List, Semester Honors
 // - Relevant Coursework: Advanced C Programming, Partial Differential Equations, Linear Algebra, Circuit Analysis, Signals and Systems, Digital System Design, Microprocessors Systems, Discrete Math, Data Structures in C, ASIC Design Lab
-- Relevant Coursework: ASIC Design Lab, Microprocessor Systems and Interfacing, Data Structures in C 
+- Relevant Coursework: Computer Network Systems, Operating Systems, Computer
+  Design, Embedded Systems
 
 == Work Experience
+
+#work(
+  title: "New Product Introduction Co-Op",
+  location: "Austin, TX",
+  company: "Advanced Micro Devices",
+  dates: dates-helper(start-date: "May 2026", end-date: "Present"),
+)
+- Designing thermal models for System Level Test (SLT) environments to improve
+  test-flow accuracy for next-generation AMD products
+// - Leveraging historical test and manufacturing data to develop predictive models
+// for performance analysis and test optimization
+- Extending and scaling existing modeling frameworks to support new product
+  platforms and improve cross-product adaptability
+- Driving SLT bring-up efforts for new AMD desktop products through validation,
+  debugging, and test-flow development
 
 #work(
   title: "Undergraduate Teaching Assistant",
   location: "West Lafayette, IN",
   company: "Purdue University",
-  dates: dates-helper(start-date: "August 2025", end-date: "Present"),
+  dates: dates-helper(start-date: "August 2025", end-date: "May 2026"),
 )
-- Mentoring undergraduate students in embedded systems programming in C for the RP2350 microcontroller
-- Guiding students in writing programs to interface with hardware peripherals, inclduing GPIO, UART, SPI, and timers
-- Performing root cause analysis on student projects with logic errors and hardware faults, teaching problem solving at the hardware-software interface
+- Mentoring undergraduate students in embedded systems programming in C for the
+  RP2350 microcontroller
+- Guiding students in writing programs to interface with hardware peripherals,
+  including GPIO, UART, SPI, and timers
+- Performing root cause analysis on student projects with logic errors and
+  hardware faults, teaching problem solving at the hardware-software interface
 
 #work(
   title: "Quality Engineering Intern",
   location: "Monroe, CT",
-  company: "Coherent, Inc.",
+  company: "Coherent",
   dates: dates-helper(start-date: "May 2025", end-date: "August 2025"),
 )
-- Wrote Python scripts using OpenCV to collect and process image data for an AI defect detection model, helping improve the model's detection accuracy for surface flaws on semiconductor wafer chucks
-- Built interactive PowerBI dashboards to visualize quality metrics, providing the engineering team with clearer insights into manufacturing trends
-- Assisted with root cause analysis on a critical component failure by performing physical inspections and identifying the cause
+- Wrote Python scripts using OpenCV to collect and process image data for an AI
+  defect detection model, helping improve the model's detection accuracy for
+  surface flaws on semiconductor wafer chucks
+- Built interactive PowerBI dashboards to visualize quality metrics, providing the
+  engineering team with clearer insights into manufacturing trends
+- Assisted with root cause analysis on a critical component failure by performing
+  physical inspections and identifying the cause
 
 // #work(
 //   title: "Manufacturing Engineering Intern",
@@ -82,11 +105,11 @@
 //   dates: dates-helper(start-date: "May 2024", end-date: "May 2025"),
 // )
 // // - Collaborated directly with production teams on the assembly line to troubleshoot and resolve manufacturing issues for precision motion control products
-// - Troubleshooted and Resolved manufacturing issues for precision motion control products with 
-// - Contributed to engineering projects by designing mechanical prototypes in SolidWorks and performing tests to validate their performance and function 
+// - Troubleshooted and Resolved manufacturing issues for precision motion control products with
+// - Contributed to engineering projects by designing mechanical prototypes in SolidWorks and performing tests to validate their performance and function
 // - Improved operational efficiency by analyzing production workflows and implementing targeted updates within the Microsoft Dynamica NAV ERP system
 //
-== Research Experience 
+== Research Experience
 
 #work(
   title: "Research with VIP SoCET, Datacenter Network Accelerator",
@@ -94,9 +117,12 @@
   company: "Purdue University",
   dates: dates-helper(start-date: "August 2025", end-date: "Present"),
 )
-- Developing a software simulation of a server environment, creating a model of a custom harware network accelerator to enable pre-silicon validation 
-- Implementing network communication layers to bridge the software simulation with the physical hardware accelerator over Ethernet, creating a testing environment
-- Designing and scripting test workloads to validate the accelerator's functionality and benchmark its performance
+- Developing a software simulation of a server environment, creating a model of a
+  custom hardware network accelerator to enable pre-silicon validation
+- Implementing network communication layers to bridge the software simulation with
+  the physical hardware accelerator over Ethernet, creating a testing environment
+- Designing and scripting test workloads to validate the accelerator's
+  functionality and benchmark its performance
 
 #work(
   title: "Undergraduate Research Assistant, AI Network Performance",
@@ -104,8 +130,10 @@
   company: "Purdue University, w/ Dr. Xiaoqi Chen",
   dates: dates-helper(start-date: "January 2025", end-date: "Present"),
 )
-- Analyzing modern data center network architecture to model their performance impact on large-scale AI training workloads
-- Utilizing network simulators including ns-3 and AstraSim to analyze data flow, identifying key network bottlenecks in collective communication patterns 
+- Analyzing modern data center network architecture to model their performance
+  impact on large-scale AI training workloads
+- Utilizing network simulators including ns-3 and AstraSim to analyze data flow,
+  identifying key network bottlenecks in collective communication patterns
 
 #work(
   title: "Undergraduate Research Assistant, GPU Acceleration",
@@ -113,20 +141,25 @@
   company: "Purdue University, w/ Dr.Milind Kulkarni",
   dates: dates-helper(start-date: "January 2025", end-date: "May 2025"),
 )
-- Accelerated k-nearest neighbors algorithm by leveraging NVIDIA GPU ray-tracing cores for high-speed spatial queries
-- Optimized the core search algorithm in CUDA and C++, using rotations to optimize for data in different Minowsky distances 
+- Accelerated k-nearest neighbors algorithm by leveraging NVIDIA GPU ray-tracing
+  cores for high-speed spatial queries
+- Optimized the core search algorithm in CUDA and C++, using rotations to optimize
+  for data in different Minowsky distances
 
-#work(
-  title: "Research with VIP Semiconductors @ Birck, Polymer Team",
-  location: "West Lafayette, IN",
-  company: "Purdue University",
-  dates: dates-helper(start-date: "January 2025", end-date: "May 2025"),
-)
-- Operated a CO2 laser to pattern PET substrates, and determined optimal parameters for feature creation
-- Contributed to the chip integration process by preparing and applying epoxy for backfilling
-- Prepared samples for adhesion tests by spin coating an adhesive layer onto the PET substrate
+// #work(
+//   title: "Research with VIP Semiconductors @ Birck, Polymer Team",
+//   location: "West Lafayette, IN",
+//   company: "Purdue University",
+//   dates: dates-helper(start-date: "January 2025", end-date: "May 2025"),
+// )
+// - Operated a CO2 laser to pattern PET substrates, and determined optimal
+//   parameters for feature creation
+// - Contributed to the chip integration process by preparing and applying epoxy for
+//   backfilling
+// - Prepared samples for adhesion tests by spin coating an adhesive layer onto the
+//   PET substrate
 
 == Skills
 
-- *Programming Languages*: C, Python, Java, MATLAB, RISC-V Assembly, C++, CUDA
-- *Technologies*: Linux, Git, ns-3, System Verilog, LTspice, Autodesk Eagle
+- *Programming Languages*: C, C++, Python, MATLAB, Java, CUDA, RISC-V Assembly
+- *Technologies*: Linux, Git, ns-3, htsim, System Verilog
